@@ -7,6 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## how to use this project
+
+- git clone https://github.com/tawfiqmoussif/formelD-app.git
+- cd /formelD-app
+- composer install
+- copy .env.example .env  // windows cmd
+- cp .env.example .env // linux cmd
+
+- php artisan key:generate
+- php artisan migrate
+- composer dump-autoload
+- php artisan db:seed 
+- php artisan serve
+
+- npm install
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
