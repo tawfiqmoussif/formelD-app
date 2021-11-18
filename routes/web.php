@@ -24,8 +24,8 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/test', function () {
-    return Inertia::render('test');
+Route::get('/formeld', function () {
+    return Inertia::render('Formeld');
 });
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
